@@ -1,12 +1,5 @@
 # Go Architecture
 
-```mermaid
-    graph TD;
-            A-->B;
-            A-->C;
-            B-->D;
-            C-->D;
-```
 ## The Clean Architecture
 <img width="727" alt="スクリーンショット 2022-08-02 8 07 55" src="https://user-images.githubusercontent.com/65061306/182260133-19be1a99-0285-46b8-af65-12577a9e1158.png">
 
@@ -27,7 +20,6 @@ https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html
 - DB操作などの技術的な実装を持ってはならない．
 - また，他のどのレイヤにも依存してはならない．
 - オブジェクトでビジネスロジックを表現する責務
-- 
 
 ### repository
 - データの集約、永続化の責務

@@ -110,3 +110,12 @@ https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html
     - インプットデータ
     - 入力チェック
     - アウトプットデータの作成　など
+
+# Reference architecture
+## Gorm
+- https://gorm.io/ja_JP/docs/index.html
+- https://github.com/volatiletech/sqlboiler
+
+## DI（Dependency Injection）
+- https://github.com/google/wire
+

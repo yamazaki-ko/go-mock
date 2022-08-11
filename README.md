@@ -15,7 +15,7 @@ https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html
 - アプリケーションの本質的な価値を提供するオブジェクトは、依存されない側にすべし。
 
 ### entity
-- データレコードを表現するクラス
+- コアなビジネスルール
 - ドメインロジックを実装する責務を持つ．
 - DB操作などの技術的な実装を持ってはならない．
 - また，他のどのレイヤにも依存してはならない．
@@ -25,7 +25,7 @@ https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html
 - データの集約、永続化の責務
 
 ### usecase
-- 技術的な要素を省いた、ビジネスルール
+- 処理の流れ
 - Entity・Repositoryを使い、ユースケースを達成する責務
 
 ### controler

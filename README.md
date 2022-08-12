@@ -34,7 +34,11 @@ https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html
 ### FrameWorks & Drivers
 - httpリクエストの受付
 - DBとの接続
+<<<<<<< HEAD
 - ミドルウェアとの実際の接続や入出力などを担当するレイヤーなど
+=======
+- ミドルウェアとの実際の接続や入出力などを担当するレイヤー
+>>>>>>> origin/main
 
 # go-architecture
 
